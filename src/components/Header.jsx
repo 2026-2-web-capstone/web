@@ -34,7 +34,6 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <div className="text-2xl font-bold text-primary-600">📚</div>
             <span className="text-xl font-bold text-gray-800">도서 쇼핑몰</span>
           </Link>
 
