@@ -29,7 +29,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 도서 쇼핑몰. All rights reserved.</p>
+          <p>&copy; 2026 도서 쇼핑몰. All rights reserved.</p>
         </div>
       </div>
     </footer>

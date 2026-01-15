@@ -69,6 +69,43 @@ npm run dev
 npm run build
 ```
 
+## Vercel 배포
+
+### 방법 1: Vercel CLI 사용
+
+1. Vercel CLI 설치
+```bash
+npm i -g vercel
+```
+
+2. 배포
+```bash
+vercel
+```
+
+3. 프로덕션 배포
+```bash
+vercel --prod
+```
+
+### 방법 2: Vercel 웹 대시보드 사용
+
+1. [Vercel](https://vercel.com)에 로그인
+2. "Add New Project" 클릭
+3. GitHub/GitLab/Bitbucket에서 저장소 연결 또는 직접 업로드
+4. 프로젝트 설정:
+   - Framework Preset: **Vite**
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+   - Install Command: `npm install`
+5. "Deploy" 클릭
+
+### 배포 후 확인사항
+
+- ✅ SPA 라우팅이 정상 작동하는지 확인 (vercel.json에 rewrites 설정 포함)
+- ✅ 환경 변수가 필요한 경우 Vercel 대시보드에서 설정
+- ✅ 커스텀 도메인 연결 (선택사항)
+
 ## 테스트 계정
 
 ### 일반 사용자
